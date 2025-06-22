@@ -1,24 +1,6 @@
 # Steganography
-🔐 Steganography in BMP Images using C
-Hide and retrieve secret messages within BMP image files without altering their visual appearance.
+A project based on practice of concealing a file, message, image within another file, message, image.
+Project based on Encrypting secret message in a BMP image file without effecting the image view. Uses : Adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is one common use of steganography. Watermarking is a technique often used by online publishers to identify the source of media files that have been found being shared without permission. Programming Language : C Programming Language. Operation:
 
-This project demonstrates a simple and effective steganography technique using the C programming language. It allows you to encode secret text data into a .bmp image file and decode it back without affecting the visible quality of the image.
-
-💡 Features
-Encode Mode: Embed a secret message (from secret.txt) into a 24-bit BMP image (beautiful.bmp) without changing how it looks.
-
-Decode Mode: Extract the hidden message from the encoded BMP image and save it to a new .txt file.
-
-Preserves Image Integrity: Ensures the image remains visually unchanged.
-
-Use Case – Watermarking: Perfect for invisible watermarking and identifying copyright ownership in shared multimedia content.
-
-🛠 Language
-C Programming Language
-
-📂 Use Cases
-Digital watermarking for content protection
-
-Secure data embedding in images
-
-Hidden communication channels in image files
+1]Encode: Encoding Secret message from secret.txt in the beautiful.bmp file.
+2]Decode: Decoding the secret message from encoded image file to a new(.txt) file.
